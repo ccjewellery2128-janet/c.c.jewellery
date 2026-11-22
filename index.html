@@ -50,16 +50,16 @@ nav button{
 }
 
 .product{
-    width:250px;
+    width:280px;
     background:white;
     border-radius:10px;
     overflow:hidden;
-    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+    box-shadow:0 2px 8px rgba(0,0,0,0.15);
 }
 
 .product img{
     width:100%;
-    height:300px;
+    height:320px;
     object-fit:cover;
 }
 
@@ -69,17 +69,29 @@ nav button{
 
 .price{
     font-size:24px;
-    color:red;
     font-weight:bold;
+    color:red;
 }
 
 .buy-btn{
-    width:100%;
     background:#ff69b4;
     color:white;
-    border:none;
     padding:10px;
+    border-radius:5px;
     cursor:pointer;
+    margin-top:10px;
+}
+
+details{
+    margin-top:10px;
+}
+
+details summary{
+    list-style:none;
+}
+
+details summary::-webkit-details-marker{
+    display:none;
 }
 
 footer{
@@ -87,10 +99,17 @@ footer{
     background:#000;
     color:white;
     padding:20px;
+    margin-top:30px;
+}
+
+a{
+    color:#ff69b4;
+    text-decoration:none;
 }
 </style>
 
 </head>
+
 <body>
 
 <header>
@@ -113,65 +132,111 @@ footer{
     <p>歡迎選購</p>
 </div>
 
-<div class="product">
-    <img src="001.jpeg" alt="橫間短袖（灰色）">
+<div class="products">
 
-    <div class="product-content">
-        <h3>橫間短袖（灰色）</h3>
+    <!-- 商品1 -->
+    <div class="product">
 
-        <p>灰色條紋休閒短袖上衣</p>
+        <img src="001.jpeg" alt="韓系針織毛衣">
 
-        <div class="price">HK$99</div>
+        <div class="product-content">
 
-        <details>
-            <summary class="buy-btn">
-                查看商品
-            </summary>
+            <h3>韓系針織毛衣</h3>
 
-            <div style="padding:15px; text-align:left;">
+            <p>米白色韓系針織長袖</p>
 
-                <p><b>商品名稱：</b>橫間短袖（灰色）</p>
+            <div class="price">HK$129</div>
 
-                <p><b>售價：</b>HK$99</p>
+            <details>
 
-                <p><b>尺碼：</b>均碼</p>
+                <summary class="buy-btn">
+                    查看商品
+                </summary>
 
-                <p><b>顏色：</b>灰色</p>
+                <div>
 
-                <p><b>材質：</b>線衫</p>
+                    <p><b>商品名稱：</b>韓系針織毛衣</p>
 
-                <p><b>庫存：</b>1</p>
+                    <p><b>售價：</b>HK$129</p>
 
-                <p>
-                    <b>WhatsApp落單：</b>
-                    <a href="https://wa.me/85268712160">
-                        +852 68712160
-                    </a>
-                </p>
+                    <p><b>尺碼：</b>均碼</p>
 
-            </div>
+                    <p><b>顏色：</b>米白色</p>
 
-        </details>
+                    <p><b>材質：</b>針織</p>
+
+                    <p><b>庫存：</b>有存貨</p>
+
+                    <p><b>分類：</b>長袖</p>
+
+                    <p>
+                        <a href="https://wa.me/85268712160?text=你好，我想購買韓系針織毛衣">
+                            WhatsApp落單
+                        </a>
+                    </p>
+
+                </div>
+
+            </details>
+
+        </div>
 
     </div>
-</div>    <div class="product">
-    <img src="003.jpeg" alt="企鵝長袖衫">
 
-    <div class="product-content">
-        <h3>企鵝長袖衫</h3>
+    <!-- 商品2 -->
+    <div class="product">
 
-        <p>可愛企鵝圖案拼色長袖上衣</p>
+        <img src="003.jpeg" alt="企鵝印花長袖Tee">
 
-        <div class="price">HK$89</div>
+        <div class="product-content">
 
-        <button class="buy-btn">
-            查看商品
-        </button>
+            <h3>企鵝印花長袖Tee</h3>
+
+            <p>灰白拼色純棉長袖上衣</p>
+
+            <div class="price">HK$89</div>
+
+            <details>
+
+                <summary class="buy-btn">
+                    查看商品
+                </summary>
+
+                <div>
+
+                    <p><b>商品名稱：</b>企鵝印花長袖Tee</p>
+
+                    <p><b>售價：</b>HK$89</p>
+
+                    <p><b>尺碼：</b>均碼</p>
+
+                    <p><b>顏色：</b>灰白拼色</p>
+
+                    <p><b>材質：</b>純棉</p>
+
+                    <p><b>庫存：</b>現貨</p>
+
+                    <p><b>分類：</b>長袖上衣</p>
+
+                    <p>
+                        <a href="https://wa.me/85268712160?text=你好，我想購買企鵝印花長袖Tee">
+                            WhatsApp落單
+                        </a>
+                    </p>
+
+                </div>
+
+            </details>
+
+        </div>
+
     </div>
+
 </div>
 
 <footer>
-    © C&C 2026
+    © C&C 2026<br>
+    WhatsApp：6871 2160
 </footer>
 
 </body>
