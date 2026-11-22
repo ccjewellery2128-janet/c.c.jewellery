@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>C&C</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f4f4;
+}
+
+header{
+    background:#000;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:#333;
+    text-align:center;
+    padding:10px;
+}
+
+nav button{
+    background:#ff69b4;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    margin:5px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.banner{
+    background:#ffe4ec;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.products{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    padding:20px;
+}
+
+.product{
+    width:250px;
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+
+.product img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.product-content{
+    padding:15px;
+}
+
+.price{
+    font-size:24px;
+    color:red;
+    font-weight:bold;
+}
+
+.buy-btn{
+    width:100%;
+    background:#ff69b4;
+    color:white;
+    border:none;
+    padding:10px;
+    cursor:pointer;
+}
+
+footer{
+    text-align:center;
+    background:#000;
+    color:white;
+    padding:20px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>C&C</h1>
+    <p>歡迎來到 C&C 網店</p>
+</header>
+
+<nav>
+    <button>全部商品</button>
+    <button>新品上架</button>
+    <button>短袖</button>
+    <button>長袖</button>
+    <button>外套</button>
+    <button>裙</button>
+    <button>褲</button>
+</nav>
+
+<div class="banner">
+    <h2>最新商品</h2>
+    <p>歡迎選購</p>
+</div>
+
+<div class="product">
+    <img src="001.jpeg" alt="橫間短袖（灰色）">
+
+    <div class="product-content">
+        <h3>橫間短袖（灰色）</h3>
+
+        <p>灰色條紋休閒短袖上衣</p>
+
+        <div class="price">HK$99</div>
+
+        <details>
+            <summary class="buy-btn">
+                查看商品
+            </summary>
+
+            <div style="padding:15px; text-align:left;">
+
+                <p><b>商品名稱：</b>橫間短袖（灰色）</p>
+
+                <p><b>售價：</b>HK$99</p>
+
+                <p><b>尺碼：</b>均碼</p>
+
+                <p><b>顏色：</b>灰色</p>
+
+                <p><b>材質：</b>線衫</p>
+
+                <p><b>庫存：</b>1</p>
+
+                <p>
+                    <b>WhatsApp落單：</b>
+                    <a href="https://wa.me/85268712160">
+                        +852 68712160
+                    </a>
+                </p>
+
+            </div>
+
+        </details>
+
+    </div>
+</div>    <div class="product">
+    <img src="003.jpeg" alt="企鵝長袖衫">
+
+    <div class="product-content">
+        <h3>企鵝長袖衫</h3>
+
+        <p>可愛企鵝圖案拼色長袖上衣</p>
+
+        <div class="price">HK$89</div>
+
+        <button class="buy-btn">
+            查看商品
+        </button>
+    </div>
+</div>
+
+<footer>
+    © C&C 2026
+</footer>
+
+</body>
+</html>
